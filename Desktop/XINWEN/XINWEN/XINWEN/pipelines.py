@@ -23,7 +23,6 @@ class FgwNewsPipeline:
 class DuplicatesPipeline(object):
     def __init__(self):
         return
-        # host = '47.106.239.73'
         host = 'localhost'
         port = 6379
         pool = redis.ConnectionPool(host=host, port=port, db=1)
